@@ -6,7 +6,7 @@ title Nijenna Downloader - Zertifikats-Installation
 net session >nul 2>&1
 if %errorLevel% neq 0 (
     echo Fordere Administratorrechte an...
-    powershell -Command "Start-Process -FilePath 'cmd.exe' -ArgumentList ('/c ' + [char]34 + '%~f0' + [char]34) -Verb RunAs"
+    powershell -Command "Start-Process -FilePath '%~f0' -Verb RunAs"
     exit /b
 )
 
@@ -47,7 +47,7 @@ goto ASK_DELETE
 echo.
 echo Loesche Installationsdateien...
 if exist "%~dp0NijennaCert.cer" del "%~dp0NijennaCert.cer"
-echo Fertig! Dieses Fenster schliess sich in Kuerze.
+echo Fertig! Dieses Fenster schliesst sich in Kuerze.
 timeout /t 3 >nul
 del "%~f0"
 exit
@@ -58,7 +58,7 @@ echo Installationsdateien wurden nicht geloescht.
 echo.
 echo ======================================================================
 echo  Fertig! Du kannst 'Nijenna Youtube Downloader.exe' jetzt starten.
-echo  Dieses Fenster schliesst sich in Kürze automatisch...
+echo  Dieses Fenster schliesst sich in Kuerze automatisch...
 echo ======================================================================
 echo.
 timeout /t 5 >nul
