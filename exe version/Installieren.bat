@@ -6,7 +6,7 @@ title Nijenna Downloader - Zertifikats-Installation
 net session >nul 2>&1
 if %errorLevel% neq 0 (
     echo Fordere Administratorrechte an...
-    powershell -Command "Start-Process -FilePath 'cmd.exe' -ArgumentList '/c \"\"%~f0\"\"' -Verb RunAs"
+    powershell -Command "Start-Process -FilePath 'cmd.exe' -ArgumentList ('/c ' + [char]34 + '%~f0' + [char]34) -Verb RunAs"
     exit /b
 )
 
