@@ -1,4 +1,4 @@
-Nijenna YouTube Downloader
+# Nijenna YouTube Downloader BAT
 A user-friendly Windows Batch script designed to easily download YouTube videos and convert them directly to high-quality MP3 files.
 
 Features
@@ -38,7 +38,7 @@ This project is intended for personal use. Please respect YouTube's Terms of Ser
 
 ==== EXE VErsion ====
 
-# Nijenna YouTube Downloader
+# Nijenna YouTube Downloader EXE
 
 A secure and efficient tool to download media from YouTube, powered by `yt-dlp` and `ffmpeg` with a beautiful, distraction-free HTML user interface.
 
