@@ -17,7 +17,7 @@ Download start.bat.
 
 Place the file in a folder of your choice.
 
-Double-click start_2.bat to launch.
+Double-click start.bat to launch.
 
 On the first run, the script will check for the necessary dependencies (yt-dlp and ffmpeg). Follow the on-screen prompts and select J (Yes) to let the script download them automatically.
 
