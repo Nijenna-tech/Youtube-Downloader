@@ -30,4 +30,4 @@ A background web server will start, and the beautiful HTML interface will automa
 - **Alternative Script Run:** If you prefer running the raw source without compiling or handling executable blocks, you can simply run the Python backend directly using the provided `start.bat` (which runs `python app.py` safely).
 
 ## License
-Created by Nijenna Software.
+Created by Nijenna.
