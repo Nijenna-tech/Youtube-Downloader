@@ -36,8 +36,8 @@ Antivirus Software: Some security software may flag Batch scripts that automatic
 License
 This project is intended for personal use. Please respect YouTube's Terms of Service and the copyright of the original content creators.
 
-==== EXE VErsion ====
-
+==== EXE VErsion ==== 
+(Possible trojan detection from antivirus but its only selfloading yt-dlp and ffmpeg without showing and on your click)
 # Nijenna YouTube Downloader EXE
 
 A secure and efficient tool to download media from YouTube, powered by `yt-dlp` and `ffmpeg` with a beautiful, distraction-free HTML user interface.
