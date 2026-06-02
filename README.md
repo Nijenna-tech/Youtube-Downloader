@@ -37,7 +37,12 @@ License
 This project is intended for personal use. Please respect YouTube's Terms of Service and the copyright of the original content creators.
 
 ==== EXE VErsion ==== 
+
 (Possible trojan detection from antivirus but its only selfloading yt-dlp and ffmpeg without showing and on your click)
+2/69 security vendors flagged this file as malicious - VirusTotal
+Bkav Pro - W32.Malware.38AF6A54
+SecureAge - Malicious
+
 # Nijenna YouTube Downloader EXE
 
 A secure and efficient tool to download media from YouTube, powered by `yt-dlp` and `ffmpeg` with a beautiful, distraction-free HTML user interface.
